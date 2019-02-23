@@ -125,8 +125,10 @@ function fastfundmortgage_scripts() {
 	wp_enqueue_style( 'bootstrap-style', get_template_directory_uri() . '/css/bootstrap.min.css', array(), '20151215', true);
 	
 	wp_enqueue_script("jquery");
+	
+	wp_enqueue_script( 'bootstrap-popper', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js', array(), '20151215', true );	
 
-	wp_enqueue_script( 'fastfundmortgage-navigation', get_template_directory_uri() . '/js/bootstrap.min.js', array(), '20151215', true );	
+	wp_enqueue_script( 'bootsrap-scripts', get_template_directory_uri() . '/js/bootstrap.min.js', array(), '20151215', true );	
 
 	wp_enqueue_script( 'fastfundmortgage-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
