@@ -1,0 +1,19 @@
+body {
+	background-image: url("../img/bg.png");
+	background-color: #D3D3D3;
+}
+.container, .container-fluid {
+	background: #fff;
+}
+#masthead {
+	padding-top: 50px;
+}
+#content {
+	min-height: 450px;
+}
+.post, .page {
+	margin: 0;
+}
+#footer {
+	min-height: 100px;
+}

@@ -122,7 +122,9 @@ add_action( 'widgets_init', 'fastfundmortgage_widgets_init' );
 function fastfundmortgage_scripts() {
 	wp_enqueue_style( 'fastfundmortgage-style', get_stylesheet_uri() );
 	
-	wp_enqueue_style( 'bootstrap-style', get_template_directory_uri() . '/css/bootstrap.min.css', array(), '20151215', true);
+	wp_enqueue_style( 'bootstrap-style', get_template_directory_uri() . '/css/bootstrap.min.css', array(), '20151215');
+	
+	wp_enqueue_style( 'fastfundmortgage-main', get_template_directory_uri() . '/css/main.css', array(), '20151215');
 	
 	wp_enqueue_script("jquery");
 	

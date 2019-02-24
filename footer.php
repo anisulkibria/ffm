@@ -12,7 +12,9 @@
 ?>
 
 	</div><!-- #content -->
-
+	</div><!-- #conteiner -->
+	
+	<div id="footer" class="container-fluid">	
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'fastfundmortgage' ) ); ?>">
@@ -28,6 +30,8 @@
 				?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
+	</div><!-- #conteiner-fluid -->
+
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
