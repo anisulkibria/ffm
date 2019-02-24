@@ -16,18 +16,9 @@
 	
 	<div id="footer" class="container-fluid">	
 	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'fastfundmortgage' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'fastfundmortgage' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'fastfundmortgage' ), 'fastfundmortgage', '<a href="http://anisul.com">Anisul Kibria</a>' );
-				?>
+		<div class="site-info text-center">
+			Copyright © 2019 220 Marketing </br>
+			Mortgage Web Site Design by 220 Marketing
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 	</div><!-- #conteiner-fluid -->

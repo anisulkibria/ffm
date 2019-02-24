@@ -5,15 +5,34 @@ body {
 .container, .container-fluid {
 	background: #fff;
 }
-#masthead {
-	padding-top: 50px;
+.contact {
+	padding: 40px 15px 0 0;
+	text-align: right;
 }
-#content {
-	min-height: 450px;
+.homepage .main-container {
+	padding: 20px 30px;
+}
+.banner img{
+	width: 100%;
+}
+.homepage .entry-content {
+	padding: 0 10px;
 }
 .post, .page {
 	margin: 0;
 }
+.homepage form {
+	background: #D3D3D3;
+	padding: 20px 30px;
+}
+.homepage .form h4{
+	background: #1B3246;
+	color: #ffffff;
+	margin-bottom: 0;
+	padding: 20px;
+}
 #footer {
-	min-height: 100px;
+	background-color: #F1F1F1;
+	border-top: 2px solid #DDDDDD;
+	padding: 20px;
 }
