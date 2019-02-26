@@ -2,6 +2,21 @@ body {
 	background-image: url("../img/bg.png");
 	background-color: #D3D3D3;
 }
+i.fas {
+	font-family: fontawesome;
+	padding-right: 10px;
+	text-align: left;
+}
+.homepage h3 {
+	padding: 15px 0;
+}
+.homepage ul {
+	margin: 0;
+}
+.homepage ul li {
+	font-size: 18px;
+	list-style: none;
+}
 .container, .container-fluid {
 	background: #fff;
 }

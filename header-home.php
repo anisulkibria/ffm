@@ -44,7 +44,7 @@
 
 			<div class="col-md-6">
 				<div class="contact">
-					<h3><b>619.758.9696</b></h3>
+					<h3><b><i class="fas fa-phone"></i>619.758.9696</b></h3>
 				</div>
 			</div>
 
