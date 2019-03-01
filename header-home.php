@@ -44,7 +44,8 @@
 
 			<div class="col-md-6">
 				<div class="contact">
-					<h3><b><i class="fas fa-phone"></i>619.758.9696</b></h3>
+						<h3><a href="tel:714-692-2955"><b><i class="fas fa-phone"></i>714-692-2955</b></a>
+						<a href="tel:909-395-6474"><b><i class="fas fa-phone"></i>909-395-6474</b></a></h3>
 				</div>
 			</div>
 
