@@ -12,12 +12,6 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php
-		//if ( is_singular() ) :
-			//the_title( '<h1 class="entry-title">', '</h1>' );
-		//else :
-			//the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
-		//endif;
-
 		if ( 'post' === get_post_type() ) :
 			?>
 			<div class="entry-meta">
@@ -30,12 +24,12 @@
 	</header><!-- .entry-header -->
 
 	<div class="banner">
-		<?php the_custom_header_markup(); ?>
+		<?php //the_custom_header_markup(); ?>
 	</div>
 
 	<div class="entry-content">
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-md-8">
 			<?php
 			the_content( sprintf(
 				wp_kses(
@@ -57,9 +51,9 @@
 			?>
 			</div>
 
-			<div class="col-md-6">
+			<div class="col-md-4">
 				<div class="form">
-					<h4><b>Simply Complete the Quick Form below</b></h4>
+					<h4 class='text-center'><b>Quick Quote</b></h4>
 					<form>
 						<div class="form-row">
 							<div class="form-group col-md-6">

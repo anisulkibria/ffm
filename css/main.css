@@ -48,6 +48,18 @@ i.fas {
 .post, .page {
 	margin: 0;
 }
+.main-menu {
+	margin: 15px 5px;
+}
+#site-navigation 
+{ 
+	background: #0354CD;
+}
+#site-navigation a
+{ 
+	color: #FFFFFF;
+	padding: 10px;
+}
 .homepage form {
 	background: #D3D3D3;
 	padding: 20px 30px;
