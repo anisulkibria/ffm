@@ -52,70 +52,15 @@
 			</div>
 
 			<div class="col-md-4">
-				<div class="form">
-					<h4 class='text-center'><b>Quick Quote</b></h4>
-					<form>
-						<div class="form-row">
-							<div class="form-group col-md-6">
-							<label for="inputState">Type Of Loan:</label>
-							<select id="inputState" class="form-control">
-								<option selected>Select One</option>
-								<option>Purchage Loan</option>
-								<option>Refinance Loan</option>
-							</select>
-							</div>
-							<div class="form-group col-md-6">
-							<label for="inputState">Property Value:</label>
-							<select id="inputState" class="form-control">
-								<option selected>Select One</option>
-								<option>Purchage Loan</option>
-								<option>Refinance Loan</option>
-							</select>
-							</div>
-						</div>
+				<?php 
+					$value = get_field( "loan_sidebar" );
 
-						<div class="form-row">
-							<div class="form-group col-md-6">
-							<label for="inputState">Credit History:</label>
-							<select id="inputState" class="form-control">
-								<option selected>Select One</option>
-								<option>Purchage Loan</option>
-								<option>Refinance Loan</option>
-							</select>
-							</div>
-							<div class="form-group col-md-6">
-							<label for="inputState">Loan Amount:</label>
-							<select id="inputState" class="form-control">
-								<option selected>Select One</option>
-								<option>Purchage Loan</option>
-								<option>Refinance Loan</option>
-							</select>
-							</div>
-						</div>
-
-						<div class="form-row">
-							<div class="form-group col-md-6">
-							<label for="inputCity">First Name</label>
-							<input type="text" class="form-control" id="inputCity">
-							</div>
-							<div class="form-group col-md-6">
-							<label for="inputCity">Last Name</label>
-							<input type="text" class="form-control" id="inputCity">
-							</div>
-						</div>
-						<div class="form-row">
-							<div class="form-group col-md-6">
-							<label for="inputCity">Phone</label>
-							<input type="text" class="form-control" id="inputCity">
-							</div>
-							<div class="form-group col-md-6">
-							<label for="inputCity">Email</label>
-							<input type="text" class="form-control" id="inputCity">
-							</div>
-						</div>
-						<button type="submit" class="btn btn-primary">Submit</button>
-					</form>
-				</div>
+					if( $value ) {
+						echo $value;
+					} else {
+						echo '';
+					}
+					?>
 			</div>
 		</div>
 	</div><!-- .entry-content -->
