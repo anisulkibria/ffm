@@ -36,6 +36,9 @@ i.fas {
 .contact i{
 	padding: 0 5px 0 20px;
 }
+.main-container {
+	min-height: 500px;
+}
 .homepage .main-container {
 	padding: 20px 30px;
 }
