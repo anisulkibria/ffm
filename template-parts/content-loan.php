@@ -60,7 +60,7 @@
 					} else {
 						echo '';
 					}
-					?>
+				?>
 			</div>
 		</div>
 	</div><!-- .entry-content -->
