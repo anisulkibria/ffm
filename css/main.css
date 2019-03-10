@@ -7,13 +7,13 @@ i.fas {
 	padding-right: 10px;
 	text-align: left;
 }
-.homepage h3 {
+h3 {
 	padding: 15px 0;
 }
-.homepage ul {
+ul {
 	margin: 0;
 }
-.homepage ul li {
+ul li {
 	font-size: 18px;
 	list-style: none;
 }
@@ -24,6 +24,10 @@ i.fas {
 	max-height: 120px;
 	padding-left: 10px;
 	width: auto;
+}
+.homepage .contact{
+	padding: 0 10px;
+	text-align: right;
 }
 .contact{
 	padding: 30px 10px;
@@ -39,20 +43,24 @@ i.fas {
 .main-container {
 	min-height: 500px;
 }
-.homepage .main-container {
+.main-container {
 	padding: 20px 30px;
 }
 .banner img{
+	padding: 0 5px;
 	width: 100%;
 }
 .homepage .entry-content {
+	margin: 0;
+}
+.entry-content {
 	padding: 0 10px;
 }
 .post, .page {
 	margin: 0;
 }
 .main-menu {
-	margin: 15px 5px;
+	margin: 0 10px;
 }
 #site-navigation 
 { 
@@ -66,15 +74,15 @@ i.fas {
 .sub-menu {
 	background: #0354CD;
 }
-.homepage form {
+.form {
 	background: #D3D3D3;
 	padding: 20px 30px;
 }
-.homepage .form h4{
+.form h4, .form h5{
 	background: #1B3246;
 	color: #ffffff;
 	margin-bottom: 0;
-	padding: 20px;
+	padding: 14px;
 }
 #footer {
 	background-color: #F1F1F1;

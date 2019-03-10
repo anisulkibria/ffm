@@ -47,6 +47,10 @@ if ( ! function_exists( 'fastfundmortgage_setup' ) ) :
 			'menu-1' => esc_html__( 'Primary', 'fastfundmortgage' ),
 		) );
 
+		register_nav_menus( array(
+			'menu-2' => esc_html__( 'Secondary', 'fastfundmortgage' ),
+		) );
+
 		/*
 		 * Switch default core markup for search form, comment form, and comments
 		 * to output valid HTML5.
