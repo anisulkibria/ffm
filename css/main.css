@@ -47,7 +47,7 @@ ul li {
 	padding: 20px 30px;
 }
 .banner img{
-	padding: 0 5px;
+	padding: 0 10px 5px;
 	width: 100%;
 }
 .homepage .entry-content {
@@ -81,11 +81,16 @@ ul li {
 .form h4, .form h5{
 	background: #1B3246;
 	color: #ffffff;
-	margin-bottom: 0;
+	margin-bottom: 20px;
 	padding: 14px;
 }
 #footer {
 	background-color: #F1F1F1;
 	border-top: 2px solid #DDDDDD;
 	padding: 20px;
+}
+.ehllogo {
+	clear: both;
+	overflow: hidden;
+	width: 80px;
 }
