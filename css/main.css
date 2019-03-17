@@ -62,17 +62,31 @@ ul li {
 .main-menu {
 	margin: 20px 10px;
 }
-#site-navigation 
+.main-menu ul li{
+	border-right: 1px solid #D3D3D3;
+}
+#site-navigation, #site-navigation li, #site-navigation li:hover
 { 
-	background: #0354CD;
+	background: #0354CD;	
+	border-radius: 10px;
+}
+#site-navigation li:hover
+{ 
+	background: #0047aa;
 }
 #site-navigation a
 { 
 	color: #FFFFFF;
 	padding: 10px;
+	text-decoration: none;
 }
 .sub-menu {
 	background: #0354CD;
+	border-radius: 0 0 10px 10px;
+}
+.main-menu ul.sub-menu li{
+	border-top: 1px solid #D3D3D3;
+	border-right: none;
 }
 .form {
 	background: #D3D3D3;
