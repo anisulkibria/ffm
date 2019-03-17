@@ -59,5 +59,18 @@
 			</div>
 
 	</div>
+	
+	<div class="row main-menu">
+		<nav id="site-navigation" class="main-navigation">
+				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'fastfundmortgage' ); ?></button>
+				<?php
+				wp_nav_menu( array(
+					'theme_location' => 'menu-1',
+					'menu_id'        => 'primary-menu',
+				) );
+				?>
+		</nav><!-- #site-navigation -->
+	</div>
+
 
 	<div id="content" class="site-content">
